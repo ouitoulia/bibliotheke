@@ -1,5 +1,5 @@
-name: "Bibliothēkē"
-description: "Bibliothēkē è un modulo drupal che gestisce le configurazioni di Media necessarie all'implementazione dell'architettura dei contenuti delle scuole."
+name: "Bibliothéke"
+description: "Bibliothéke è un modulo drupal che gestisce le configurazioni di Media necessarie all'implementazione dell'architettura dei contenuti delle scuole."
 package: "Ouitoulía"
 
 type: module

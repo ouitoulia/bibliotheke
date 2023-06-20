@@ -1,6 +1,6 @@
 {
   "name": "ouitoulia/bibliotheke",
-  "description": "Bibliothēkē è un modulo drupal che gestisce le configurazioni di Media necessarie all'implementazione dell'architettura dei contenuti delle scuole.",
+  "description": "Bibliothéke è un modulo drupal che gestisce le configurazioni di Media necessarie all'implementazione dell'architettura dei contenuti delle scuole.",
   "type": "drupal-module",
   "license": "GPL-3.0-only",
   "homepage": "https://github.com/ouitoulia/bibliotheke",
