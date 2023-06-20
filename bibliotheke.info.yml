@@ -1,0 +1,11 @@
+name: "Bibliothēkē"
+description: "Bibliothēkē è un modulo drupal che gestisce le configurazioni di Media necessarie all'implementazione dell'architettura dei contenuti delle scuole."
+package: "Ouitoulía"
+
+type: module
+core_version_requirement: ^10
+dependencies:
+  - drupal:file
+  - drupal:image
+  - drupal:media
+  - drupal:media_library

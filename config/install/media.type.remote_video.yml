@@ -1,0 +1,17 @@
+langcode: it
+status: true
+dependencies: {  }
+id: remote_video
+label: 'Video (dal cloud)'
+description: 'Gestisce i video presenti su piattaforme terze come YouTube o Vimeo.'
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_oembed_video
+  thumbnails_directory: 'public://oembed_thumbnails/[date:custom:Y-m]'
+  providers:
+    - YouTube
+    - Vimeo
+field_map:
+  title: name

@@ -1,0 +1,31 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_document
+    - media.type.document
+  module:
+    - file
+  enforced:
+    module:
+      - media
+_core:
+  default_config_hash: DY5HtJTxUjFRGU_PaY6ifo2nhR-nAZ0y0s6kLmUbv5g
+id: media.document.field_media_document
+field_name: field_media_document
+entity_type: media
+bundle: document
+label: Document
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'media/documenti/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt rtf pdf odf odg odp ods odt fodt fods fodp fodg key numbers pages PDF'
+  max_filesize: ''
+  description_field: true
+field_type: file

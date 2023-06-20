@@ -1,0 +1,13 @@
+langcode: it
+status: true
+dependencies: {  }
+id: document
+label: Document
+description: 'Gestisce i documenti da ufficio in generale.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_document
+field_map:
+  name: name
