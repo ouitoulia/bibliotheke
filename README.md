@@ -1,2 +1,2 @@
-# bibliotheke
+# Bibliothēkē
 Bibliothēkē - Biblioteca
