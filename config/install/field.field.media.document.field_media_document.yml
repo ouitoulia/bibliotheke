@@ -9,13 +9,11 @@ dependencies:
   enforced:
     module:
       - media
-_core:
-  default_config_hash: DY5HtJTxUjFRGU_PaY6ifo2nhR-nAZ0y0s6kLmUbv5g
 id: media.document.field_media_document
 field_name: field_media_document
 entity_type: media
 bundle: document
-label: Document
+label: Documenti
 description: ''
 required: true
 translatable: true

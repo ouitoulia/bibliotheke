@@ -2,7 +2,7 @@ langcode: it
 status: true
 dependencies: {  }
 id: image
-label: Image
+label: Immagine
 description: 'Gestisce le immagini.'
 source: image
 queue_thumbnail_downloads: false

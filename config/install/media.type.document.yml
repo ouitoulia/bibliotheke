@@ -2,7 +2,7 @@ langcode: it
 status: true
 dependencies: {  }
 id: document
-label: Document
+label: Documenti
 description: 'Gestisce i documenti da ufficio in generale.'
 source: file
 queue_thumbnail_downloads: false
