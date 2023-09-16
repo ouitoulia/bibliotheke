@@ -1,0 +1,30 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - image.style.focal_point_hdb_16_9_1366x768_
+    - image.style.focal_point_nhd_16_9_640x360_
+    - image.style.focal_point_svga_4_3_800x600_
+    - image.style.focal_point_xga_4_3_1024x768_
+  theme:
+    - bootstrap_italia
+id: media_default
+label: 'Media default'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: focal_point_hdb_16_9_1366x768_
+    breakpoint_id: bootstrap_italia.extra_extra_large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: focal_point_svga_4_3_800x600_
+    breakpoint_id: bootstrap_italia.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: focal_point_nhd_16_9_640x360_
+    breakpoint_id: bootstrap_italia.extra_small
+    multiplier: 1x
+breakpoint_group: bootstrap_italia
+fallback_image_style: focal_point_xga_4_3_1024x768_
