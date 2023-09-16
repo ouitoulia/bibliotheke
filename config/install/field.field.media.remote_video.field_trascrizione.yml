@@ -1,0 +1,18 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_trascrizione
+    - media.type.remote_video
+id: media.remote_video.field_trascrizione
+field_name: field_trascrizione
+entity_type: media
+bundle: remote_video
+label: Trascrizione
+description: 'Inserisci la trascrizione del video'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
