@@ -1,0 +1,9 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - media
+id: media.gallery_item
+label: 'Gallery item'
+targetEntityType: media
+cache: true
