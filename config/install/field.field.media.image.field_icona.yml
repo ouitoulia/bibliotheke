@@ -1,0 +1,18 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_icona
+    - media.type.image
+id: media.image.field_icona
+field_name: field_icona
+entity_type: media
+bundle: image
+label: Icona
+description: 'Eventualmente scegli un''icona da questa <a href="https://italia.github.io/bootstrap-italia/docs/utilities/icone/#lista-delle-icone-disponibili" title="Lista delle icone disponibili in una nuova finestra" target="_blank">lista</a>.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

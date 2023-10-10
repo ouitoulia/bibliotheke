@@ -3,16 +3,46 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.media_library
+    - field.field.media.image.field_icona
     - field.field.media.image.field_media_image
     - media.type.image
     - responsive_image.styles.media_default
   module:
     - responsive_image
+    - user
 id: media.image.media_library
 targetEntityType: media
 bundle: image
 mode: media_library
 content:
+  created:
+    type: timestamp
+    label: inline
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+      tooltip:
+        date_format: long
+        custom_date_format: ''
+      time_diff:
+        enabled: false
+        future_format: '@interval hence'
+        past_format: '@interval ago'
+        granularity: 2
+        refresh: 60
+        description: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_icona:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_media_image:
     type: responsive_image
     label: hidden
@@ -24,9 +54,14 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  uid:
+    type: author
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
-  created: true
   langcode: true
   name: true
   thumbnail: true
-  uid: true
