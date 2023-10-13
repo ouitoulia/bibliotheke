@@ -1,0 +1,35 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - image.style.focal_point_hdb_16_9_1366x768_
+    - image.style.focal_point_hvga_3_2_480x320_narrow
+    - image.style.focal_point_nhd_16_9_640x360_
+    - image.style.focal_point_sxga_5_4_1280x1024_
+  theme:
+    - bootstrap_italia
+id: ouitoulia_bibliotheke_gallery_item
+label: 'Ouitoulía Bibliothéke - Gallery Item'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: focal_point_nhd_16_9_640x360_
+    breakpoint_id: bootstrap_italia.full_hd
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: focal_point_hdb_16_9_1366x768_
+    breakpoint_id: bootstrap_italia.full_hd
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: focal_point_hvga_3_2_480x320_narrow
+    breakpoint_id: bootstrap_italia.extra_small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: focal_point_sxga_5_4_1280x1024_
+    breakpoint_id: bootstrap_italia.extra_small
+    multiplier: 2x
+breakpoint_group: bootstrap_italia
+fallback_image_style: focal_point_hvga_3_2_480x320_narrow

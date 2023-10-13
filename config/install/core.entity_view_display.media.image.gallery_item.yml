@@ -6,7 +6,7 @@ dependencies:
     - field.field.media.image.field_icona
     - field.field.media.image.field_media_image
     - media.type.image
-    - responsive_image.styles.bootstrap_italia_paragraph_gallery
+    - responsive_image.styles.ouitoulia_bibliotheke_gallery_item
   module:
     - responsive_image
 id: media.image.gallery_item
@@ -26,7 +26,7 @@ content:
     type: responsive_image
     label: hidden
     settings:
-      responsive_image_style: bootstrap_italia_paragraph_gallery
+      responsive_image_style: ouitoulia_bibliotheke_gallery_item
       image_link: file
       image_loading:
         attribute: lazy
