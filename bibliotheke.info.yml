@@ -15,7 +15,7 @@ dependencies:
   - drupal:responsive_image
 
 # Information added by GitHub Action packaging script on 2023-10-16
-version: '1.0.10'
+version: '1.0.11'
 project: 'Bibliotheke'
-datestamp: 1697470445
-message: ' release script'
+datestamp: 1697470515
+message: ' fix release script'
