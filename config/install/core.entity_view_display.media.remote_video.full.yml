@@ -7,21 +7,29 @@ dependencies:
     - field.field.media.remote_video.field_trascrizione
     - media.type.remote_video
   module:
-    - media
+    - oembed_lazyload
+    - oembed_lazyload_youtube
 id: media.remote_video.full
 targetEntityType: media
 bundle: remote_video
 mode: full
 content:
   field_media_oembed_video:
-    type: oembed
+    type: lazyload_oembed
     label: hidden
     settings:
       max_width: 640
       max_height: 480
-      loading:
-        attribute: lazy
-    third_party_settings: {  }
+      strategy: onclick
+      intersection_observer_margin: ''
+    third_party_settings:
+      oembed_lazyload_youtube:
+        autoplay: false
+        modestbranding: false
+        enablejsapi: false
+        origin: false
+        hideinfo: false
+        rel: true
     weight: 0
     region: content
   field_trascrizione:
