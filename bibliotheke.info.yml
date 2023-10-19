@@ -20,4 +20,4 @@ dependencies:
 version: '1.0.14'
 project: 'Bibliotheke'
 datestamp: 1697717728
-message: ' fix Skipped branch 1.x, Invalid package information: require.oembed_lazyload is invalid, it should have a vendor name, a forward slash, and a package name'
+message: 'fix Skipped branch 1.x, Invalid package information: require.oembed_lazyload is invalid, it should have a vendor name, a forward slash, and a package name'
