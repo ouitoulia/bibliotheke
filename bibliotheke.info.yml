@@ -16,8 +16,8 @@ dependencies:
   - oembed_lazyload:oembed_lazyload
   - oembed_lazyload:oembed_lazyload_youtube
 
-# Information added by GitHub Action packaging script on 2023-10-17
-version: '1.0.12'
+# Information added by GitHub Action packaging script on 2023-10-19
+version: '1.0.13'
 project: 'Bibliotheke'
-datestamp: 1697534940
-message: ' add oembed lazyload overlay'
+datestamp: 1697711546
+message: ' check deps'
