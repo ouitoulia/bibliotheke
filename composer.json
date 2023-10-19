@@ -15,6 +15,12 @@
     "issues": "https://github.com/ouitoulia/bibliotheke/issues",
     "source": "https://github.com/ouitoulia/bibliotheke"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
