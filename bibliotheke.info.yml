@@ -11,8 +11,8 @@ dependencies:
   - drupal:media_library
   - drupal:path
   - drupal:responsive_image
+  - bootstrap_italia:bootstrap_italia_image_style
   - focal_point:focal_point
-  - imce:imce
   - oembed_lazyload:oembed_lazyload
   - oembed_lazyload:oembed_lazyload_youtube
 

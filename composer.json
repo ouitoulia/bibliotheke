@@ -20,7 +20,6 @@
   "require": {
     "drupal/core-recommended": "^10",
     "drupal/focal_point": ">=2",
-    "drupal/imce": ">=3",
     "drupal/oembed_lazyload": ">=2"
   }
 }

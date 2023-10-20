@@ -8,7 +8,6 @@ dependencies:
     - media.type.image
   module:
     - focal_point
-    - imce
     - path
 id: media.image.default
 targetEntityType: media
@@ -38,9 +37,7 @@ content:
       preview_image_style: focal_point_thumbnail_2x_1_1_200x200_
       preview_link: true
       offsets: '50,50'
-    third_party_settings:
-      imce:
-        enabled: false
+    third_party_settings: {  }
   langcode:
     type: language_select
     weight: 3
