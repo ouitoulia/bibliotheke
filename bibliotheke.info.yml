@@ -16,8 +16,8 @@ dependencies:
   - oembed_lazyload:oembed_lazyload
   - oembed_lazyload:oembed_lazyload_youtube
 
-# Information added by GitHub Action packaging script on 2023-10-19
-version: '1.0.16'
+# Information added by GitHub Action packaging script on 2023-10-20
+version: '1.0.17'
 project: 'Bibliotheke'
-datestamp: 1697717834
-message: ' fix Skipped branch 1.x, Invalid package information: require.oembed_lazyload is invalid, it should have a vendor name, a forward slash, and a package name'
+datestamp: 1697790932
+message: ' fix deps'
