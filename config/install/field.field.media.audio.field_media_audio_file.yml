@@ -20,7 +20,7 @@ settings:
   handler: 'default:file'
   handler_settings: {  }
   file_directory: 'media/audio/[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'mp3 wav aac'
+  file_extensions: 'mp3 wav aac ogg'
   max_filesize: ''
-  description_field: false
+  description_field: true
 field_type: file
