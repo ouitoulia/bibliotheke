@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - media
+id: media.link
+label: Link
+description: "Display usato per restituire l'uri del file"
+targetEntityType: media
+cache: true
