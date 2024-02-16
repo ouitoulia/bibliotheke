@@ -16,8 +16,8 @@ dependencies:
   - oembed_lazyload:oembed_lazyload
   - oembed_lazyload:oembed_lazyload_youtube
 
-# Information added by GitHub Action packaging script on 2024-02-15
-version: '1.2.0'
+# Information added by GitHub Action packaging script on 2024-02-16
+version: '1.2.1'
 project: 'Bibliotheke'
-datestamp: 1707992154
-message: ' add display to document'
+datestamp: 1708065463
+message: ' up ci to checkout v4'
