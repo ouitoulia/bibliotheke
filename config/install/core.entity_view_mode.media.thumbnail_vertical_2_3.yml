@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - media
+id: media.thumbnail_vertical_2_3
+label: 'Thumbnail Vertical 2:3'
+description: "Visualizza l'immagine con questo stile"
+targetEntityType: media
+cache: true

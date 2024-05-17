@@ -1,0 +1,10 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - media
+id: media.thumbnail_1x
+label: 'Thumbnail 1X'
+description: "Visualizza l'immagine con questo stile"
+targetEntityType: media
+cache: true
