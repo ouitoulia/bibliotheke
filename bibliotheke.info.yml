@@ -3,7 +3,7 @@ description: "Bibliothéke è un modulo drupal che gestisce le configurazioni di
 package: "Ouitoulía"
 
 type: module
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
 dependencies:
   - drupal:file
   - drupal:image
