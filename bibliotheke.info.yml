@@ -16,8 +16,7 @@ dependencies:
   - oembed_lazyload:oembed_lazyload
   - oembed_lazyload:oembed_lazyload_youtube
 
-# Information added by GitHub Action packaging script on 2024-12-19
-version: '2.1.0'
+# Information added by GitHub Action packaging script on 2025-04-12
+version: '2.1.1'
 project: 'Bibliotheke'
-datestamp: 1734584014
-message: ' fix image save path'
+datestamp: 1744473253
