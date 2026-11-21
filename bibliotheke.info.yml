@@ -16,7 +16,7 @@ dependencies:
   - oembed_lazyload:oembed_lazyload
   - oembed_lazyload:oembed_lazyload_youtube
 
-# Information added by GitHub Action packaging script on 2025-04-12
-version: '2.1.1'
+# Information added by GitHub Action packaging script on 2026-11-21
+version: '2.2.0'
 project: 'Bibliotheke'
-datestamp: 1744473253
+datestamp: 1795271360
