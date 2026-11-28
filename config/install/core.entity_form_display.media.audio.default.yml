@@ -24,7 +24,7 @@ content:
     region: content
     settings:
       progress_indicator: bar
-    third_party_settings: { }
+    third_party_settings: {  }
   langcode:
     type: language_select
     weight: 2
